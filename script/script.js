@@ -15,7 +15,7 @@ search.addEventListener("keyup", function(){
 getWeatherData()
 async function getWeatherData(){
 
-    let weather = await fetch(`http://api.weatherapi.com/v1/current.json?key=b41eb642102842f8b80162547221410&q=${city}`)
+    let weather = await fetch(`https://api.weatherapi.com/v1/current.json?key=b41eb642102842f8b80162547221410&q=${city}`)
     let weatherData = await weather.json()
     weatherListLocation = weatherData.location
     weatherListCurrent = weatherData.current
@@ -26,7 +26,7 @@ async function getWeatherData(){
 }
 getNextDayWeatherData()
 async function getNextDayWeatherData(){
-   let futureWeather = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=b41eb642102842f8b80162547221410&q=${city}&days=3`)
+   let futureWeather = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b41eb642102842f8b80162547221410&q=${city}&days=3`)
    let futureWeatherResponed = await futureWeather.json()
    futureWeatherData = futureWeatherResponed.forecast
    console.log(futureWeatherData);
