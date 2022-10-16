@@ -1,0 +1,140 @@
+:root{
+    --bg: #1e202b;
+    --color : #bfc1c8;
+    --main :#009ad8;
+}
+
+nav{
+    background-color: var(--bg);
+}
+.navbar-brand h5{
+    font-size: 1rem;
+    color: #fff;
+}
+.navbar-brand p{
+    font-size: 0.7rem;
+    color: #fff;
+}
+.navbar-brand div{
+    line-height: 0px;
+}
+.nav-link button {
+    border : #009ad8 2px solid ;
+    color: #009ad8;
+}
+.nav-link button:hover{
+    border : #009ad8 2px solid !important;
+    color: #009ad8 !important;
+}
+.diff-links{
+    border: transparent 2px solid !important;
+    color: #fff !important;
+    transition: all 0.3s;
+}
+.diff-links:hover{
+    border : #009ad8 2px solid !important;
+    color: #009ad8 !important;
+}
+.input-group{
+    position: relative;
+}
+.input-group input{
+    border: none;
+}
+.find-button{
+    width: 7%;
+    position: absolute;
+    right: 2%;
+    /* top: 2%;
+    bottom: 2%; */
+    background-color: var(--main);
+    border: none;
+    z-index: 999;
+}
+.main{
+    background-color: var(--bg);
+    /* background-image: url(../img/banner.png); 
+    background-size: cover;
+    max-height: 100px; */
+}
+.bgImage{
+    background-image: url(../img/banner.png); 
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.input-group input{
+    background-color: var(--bg);
+}
+.weather-degree{
+    background-color: #323544;
+
+}
+.day{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: var(--color);
+}
+.location p{
+    color: var(--color);
+    font-size: 1.2857142857rem;
+    font-weight: 400;
+}
+.degree h2{
+    color: #fff;
+    font-size: 6.4285714286rem;
+    font-weight: 700;
+}
+.custom p {
+    color: var(--main);
+}
+.icons span img{
+    height: 20px;
+}
+.icons span p{
+    color: var(--color);
+}
+.next-day-degree{
+    background-color: var(--bg);
+}
+.weather h2,p{
+    color: #fff;
+}
+.last-day-degree{
+    background-color: #323544;
+}
+.find-button-footer{
+    background-color: var(--main);
+    color: #fff;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    bottom: 3%;
+    z-index: 9999;
+    border: none;
+}
+footer{
+    background-color: #262936;
+}
+.footer-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    color: var(--main);
+    font-size: 1.5rem;
+}
+.footer-icon:hover{
+    background-color: var(--main);
+    color: #fff;
+}
+
+.form-control{
+    background-color: var(--bg) !important;
+    color: #fff !important;
+}
+
+
+.move{
+    position: relative;
+    top: -200px;
+
+}
